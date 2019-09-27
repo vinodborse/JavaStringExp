@@ -3,7 +3,7 @@ package learn.javarevisited.practice.springexamples;
 public class StringEqualToOperator {
 	
 	/**
-	 * Example for equals to operator "==" in java
+	 * Example for equals metod in java
 	 * 
 	 * @author Gaurav Kukade
 	 */
@@ -12,7 +12,7 @@ public class StringEqualToOperator {
 		String str1 = "gaurav";
 		String str2 = "gaurav";
 		
-		if(str1==str2) {
+		if(str1.equals(str2)) {
 			System.out.println("str1 and str2 are pointing to the same string object.");
 		}else {
 			System.out.println("str1 and str2 are pointing to the different string object.");
